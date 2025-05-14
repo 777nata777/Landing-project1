@@ -1,0 +1,67 @@
+* 
+{
+	margin: 0;
+	padding: 0;/* отменяем стили браузера*/
+	box-sizing: border-box;
+} 
+
+header {
+	background-color: #707CE3;
+	height: 90px;
+	padding-left: 100px;
+	padding-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,   sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+	color: #ffffff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/* Logo */
+
+.header-logo {
+	float: left;
+	line-height: 90px;
+}
+
+/* меню справо */
+
+.header-menu {
+	float: right;
+	line-height: 90px;  
+}
+
+.container {
+	max-width: 1280px;
+	margin: 100px auto;
+	padding: 5px;
+}
+
+.gg {
+  	max-width: 2100px;
+    align-items: center;
+    display: flex; /* работаем через flex*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu a {
+    padding: 15px;
+    border-radius: 5px; /* задаем отступы от текста ссылки и даем радиус */
+}
+
+.header-menu a:hover {
+    background-color: #ffffff53; /* цвет фона при наведени на ссылку */
+  
+}
+
+p {
+	text-indent: 30px;/* красная строка */
+    margin: 20px 0px 40px 0px; /* внешние отступы для текста */
+}
